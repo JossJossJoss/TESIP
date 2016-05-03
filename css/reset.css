@@ -36,6 +36,7 @@ q:before, q:after {
 /* remember to define focus styles! */
 :focus {
 	outline: 0;
+	teder;
 }
 
 /* remember to highlight inserts somehow! */
