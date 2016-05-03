@@ -149,38 +149,32 @@
 	        	<!-- Page wrap -->
 	        	<div id="page-wrap">
 	        	
-					<div class="page-title"><h1>Contact</h1> <span>Where and how to get in touch</span></div>
+					<div class="page-title"><h1>Contacto</h1> <span>Dudas y Aclaraciones</span></div>
 					
 					<!-- side content -->
 					<div id="side-content">
-
-						<h4>Lorem ipsum dolor</h4>
+						<p>Si quieres Obtener mayo informaciòn sobre nuestros cursos propedeutico, carreras, becas al extrangero, maestrias, especialidades, y mucho mas cosas no dudes en mandarnos tus comentarios. </p>
 						
-						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vi sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum.</p>
-							<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum.</p>
-						
-					
-						
-						<h2 class="title-divider">Contact form</h2>			
+						<h2 class="title-divider">Mandanos tus Comentarios</h2>			
 						<!-- form -->
 						<script type="text/javascript" src="js/form-validation.js"></script>
 						<form id="contactForm" action="#" method="post">
 							<fieldset>
 								<div>
-									<input name="name"  id="name" type="text" class="form-poshytip" title="Enter your full name" />
-									<label>Name</label>
+									<input name="name"  id="name" type="text" class="form-poshytip" title="Ingresa tu Nombre" />
+									<label>Nombre</label>
 								</div>
 								<div>
-									<input name="email"  id="email" type="text" class="form-poshytip" title="Enter your email address" />
-									<label>Email</label>
+									<input name="email"  id="email" type="text" class="form-poshytip" title="Ingresa tu Correo Electronico" />
+									<label>Correo</label>
 								</div>
 								<div>
 									
-									<input name="web"  id="web" type="text" class="form-poshytip" title="Enter your website" />
-									<label>Website</label>
+									<input name="web"  id="web" type="text" class="form-poshytip" title="Ingresa tu Carrera" />
+									<label>Carrera</label>
 								</div>
 								<div>
-									<textarea  name="comments"  id="comments" rows="5" cols="20" class="form-poshytip" title="Enter your comments"></textarea>
+									<textarea  name="comments"  id="comments" rows="5" cols="20" class="form-poshytip" title="Ingres tus comentarios"></textarea>
 								</div>
 								
 								<!-- send mail configuration -->
@@ -189,11 +183,12 @@
 								<input type="hidden" value="send-mail.php" name="sendMailUrl" id="sendMailUrl" />
 								<!-- ENDS send mail configuration -->
 								
-								<p><input type="button" value="Send" name="submit" id="submit" /> <span id="error" class="warning">Message</span></p>
+								<p><input type="button" value="Enviar" name="submit" id="submit" /> <span id="error" class="warning">Mensage</span></p>
 							</fieldset>
 							
 						</form>
-						<p id="success" class="success">Form data sent. Thanks for your comments.</p>
+						<p id="success" class="success">Mensaje enviado.
+							Gracias por tus comentarios</p>
 						<!-- ENDS form -->
 				
 									
@@ -203,50 +198,6 @@
 
 
 
-						
-															
-					
-					<!-- sidebar -->
-					<div id="sidebar">
-						<h4>Ubicaciòn</h4>
-						<!-- Google map -->
-						
-						<!-- GOOGLE MAPS -->
-						<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAyXu_1Zw3-DbyonSxgLICyxSWQUvSd76__Y3fi9Kog3e7ZrY_3BSXzMhasJq2gZLNOWT1yWR8ut-FDA" ></script>
-						<script type="text/javascript" >google.load("maps","2.x");</script>
-						
-						<script type="text/javascript">
-							
-							jQuery(document).ready(function($) {
-							
-							//##########################################
-							// Google maps
-							//##########################################
-							
-							// You can get the latitud and Longitude values at http://itouchmap.com/latlong.html
-							
-							var latitude = 44.8011821;
-							var longitude = -68.7778138;
-							
-							// center map
-							var map = new GMap2(document.getElementById("map")); 
-							var point = new GLatLng(latitude, longitude); 
-							map.setCenter(point, 16);
-							
-							// Set marker
-							marker = new GMarker(point); 
-							map.addOverlay(marker);
-							
-							// controls
-							map.addControl(new GLargeMapControl());
-							
-							});
-						</script>
-						<!-- ENDS GOOGLE MAPS -->
-		
-		
-						<div id="map"></div>
-						<!-- ENDS Google map -->
 						
 						
 						<h4><a href="file:///C|/wamp/www/tes/html/contact.html"></a>Localizaciòn</h4>
