@@ -55,3 +55,21 @@ p {
 footer.page-footer {
   margin: 0;
 }
+.trigger-content{
+  padding-top: 10%;
+  padding-left: 2%;
+}
+.imga{
+  width: 100%;
+  }
+.img{
+  border: 0;
+  padding-left: 30%;
+  padding: 5%;
+  }
+.imgad{
+  border: 0;
+  padding-left: 33%;
+  width: 10px;
+
+  }
